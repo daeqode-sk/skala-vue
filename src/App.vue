@@ -1,5 +1,5 @@
 <script setup>
-import SampleOne from './components/practices/basic/V-show.vue'
+import SampleOne from './components/practices/basic/V-text.vue'
 </script>
 
 <template>
