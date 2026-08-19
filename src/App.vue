@@ -23,6 +23,12 @@ import ModelModifier from './components/practices/basic/ModelModifier.vue'
 import StyleScoped from './components/practices/basic/StyleScoped.vue'
 import ReactiveRef from './components/practices/composition/ReactiveRef.vue'
 import ReactiveReactive from './components/practices/composition/ReactiveReactive.vue'
+import Computed from './components/practices/composition/Computed.vue'
+import WatchBasic from './components/practices/composition/WatchBasic.vue'
+import WatchMulti from './components/practices/composition/WatchMulti.vue'
+import WatchDeep from './components/practices/composition/WatchDeep.vue'
+import WatchReactive from './components/practices/composition/WatchReactive.vue'
+import WatchEffect from './components/practices/composition/WatchEffect.vue'
 </script>
 
 <template>
@@ -76,5 +82,18 @@ import ReactiveReactive from './components/practices/composition/ReactiveReactiv
     <ReactiveRef />
     <hr />
     <ReactiveReactive />
+    <ReactiveReactive />
+    <hr />
+    <Computed />
+    <hr />
+    <WatchBasic />
+    <hr />
+    <WatchMulti />
+    <hr />
+    <WatchDeep />
+    <hr />
+    <WatchReactive />
+    <hr />
+    <WatchEffect />
   </div>
 </template>
