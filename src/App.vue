@@ -21,6 +21,8 @@ import EventModifier from './components/practices/basic/EventModifier.vue'
 import ModelBasic from './components/practices/basic/ModelBasic.vue'
 import ModelModifier from './components/practices/basic/ModelModifier.vue'
 import StyleScoped from './components/practices/basic/StyleScoped.vue'
+import ReactiveRef from './components/practices/composition/ReactiveRef.vue'
+import ReactiveReactive from './components/practices/composition/ReactiveReactive.vue'
 </script>
 
 <template>
@@ -69,5 +71,10 @@ import StyleScoped from './components/practices/basic/StyleScoped.vue'
     <ModelModifier />
     <hr />
     <StyleScoped />
+    <WeatherMockup />
+    <hr />
+    <ReactiveRef />
+    <hr />
+    <ReactiveReactive />
   </div>
 </template>
