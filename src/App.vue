@@ -30,6 +30,10 @@ import WatchDeep from './components/practices/composition/WatchDeep.vue'
 import WatchReactive from './components/practices/composition/WatchReactive.vue'
 import WatchEffect from './components/practices/composition/WatchEffect.vue'
 import WeatherMockup from './components/practices/basic/WeatherMockup.vue'
+import SlotDefaultParent from '@/components/practices/component/SlotDefaultParent.vue'
+import SlotNamedParent from '@/components/practices/component/SlotNamedParent.vue'
+import SlotScopedParent from '@/components/practices/component/SlotScopedParent.vue'
+import PropsEmitsParent from '@/components/practices/component/PropsEmitsParent.vue'
 </script>
 
 <style>
@@ -99,5 +103,13 @@ import WeatherMockup from './components/practices/basic/WeatherMockup.vue'
     <WatchEffect />
     <hr />
     <WeatherMockup />
+    <hr />
+    <SlotDefaultParent />
+    <hr />
+    <SlotNamedParent />
+    <hr />
+    <SlotScopedParent />
+    <hr />
+    <PropsEmitsParent />
   </div>
 </template>
