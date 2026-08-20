@@ -29,6 +29,7 @@ import WatchMulti from './components/practices/composition/WatchMulti.vue'
 import WatchDeep from './components/practices/composition/WatchDeep.vue'
 import WatchReactive from './components/practices/composition/WatchReactive.vue'
 import WatchEffect from './components/practices/composition/WatchEffect.vue'
+import WeatherMockup from './components/practices/basic/WeatherMockup.vue'
 </script>
 
 <template>
@@ -70,18 +71,15 @@ import WatchEffect from './components/practices/composition/WatchEffect.vue'
     <EventObject />
     <hr />
     <EventModifier />
-    <EventModifier />
     <hr />
     <ModelBasic />
     <hr />
     <ModelModifier />
     <hr />
     <StyleScoped />
-    <WeatherMockup />
     <hr />
     <ReactiveRef />
     <hr />
-    <ReactiveReactive />
     <ReactiveReactive />
     <hr />
     <Computed />
@@ -95,5 +93,7 @@ import WatchEffect from './components/practices/composition/WatchEffect.vue'
     <WatchReactive />
     <hr />
     <WatchEffect />
+    <hr />
+    <WeatherMockup />
   </div>
 </template>
