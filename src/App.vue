@@ -32,8 +32,12 @@ import WatchEffect from './components/practices/composition/WatchEffect.vue'
 import WeatherMockup from './components/practices/basic/WeatherMockup.vue'
 </script>
 
+<style>
+@import '@/assets/practice.css';
+</style>
+
 <template>
-  <div style="padding: 20px">
+  <div class="practice-container">
     <SampleOne />
     <hr />
     <SampleTwo />
