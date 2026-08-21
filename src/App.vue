@@ -35,6 +35,8 @@ import SlotNamedParent from '@/components/practices/component/SlotNamedParent.vu
 import SlotScopedParent from '@/components/practices/component/SlotScopedParent.vue'
 import PropsEmitsParent from '@/components/practices/component/PropsEmitsParent.vue'
 import StoreCounter from '@/components/practices/library/StoreCounter.vue'
+import AxiosWeather from './components/AxiosWeather.vue'
+import AxiosJson from './components/AxiosJson.vue'
 </script>
 
 <style>
@@ -114,5 +116,7 @@ import StoreCounter from '@/components/practices/library/StoreCounter.vue'
     <PropsEmitsParent />
     <hr />
     <StoreCounter />
+    <AxiosWeather />
+    <AxiosJson />
   </div>
 </template>
