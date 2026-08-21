@@ -29,11 +29,12 @@ import WatchMulti from './components/practices/composition/WatchMulti.vue'
 import WatchDeep from './components/practices/composition/WatchDeep.vue'
 import WatchReactive from './components/practices/composition/WatchReactive.vue'
 import WatchEffect from './components/practices/composition/WatchEffect.vue'
-import WeatherMockup from './components/exercise/WeatherMockup.vue/index.js'
+import WeatherMockup from './components/exercise/WeatherMockup.vue'
 import SlotDefaultParent from '@/components/practices/component/SlotDefaultParent.vue'
 import SlotNamedParent from '@/components/practices/component/SlotNamedParent.vue'
 import SlotScopedParent from '@/components/practices/component/SlotScopedParent.vue'
 import PropsEmitsParent from '@/components/practices/component/PropsEmitsParent.vue'
+import StoreCounter from '@/components/practices/library/StoreCounter.vue'
 </script>
 
 <style>
@@ -111,5 +112,7 @@ import PropsEmitsParent from '@/components/practices/component/PropsEmitsParent.
     <SlotScopedParent />
     <hr />
     <PropsEmitsParent />
+    <hr />
+    <StoreCounter />
   </div>
 </template>
